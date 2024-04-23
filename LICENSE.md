@@ -35,10 +35,10 @@ Você deve fornecer uma cópia da licença junto com o software. Se o software f
 
 ---
 
-**Nome do Projeto**: Quantun Praeda
-**Licença**: Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0 Internacional)
-**Responsável pelo Desenvolvimento (Pseudônimo)**: GS.DEV
-**Email para Contato**: gs.dev.oficial@gmail.com
+**Nome do Projeto**: Quantun Praeda™<br />
+**Licença**: CC BY-SA 4.0 Internacional (Versão Personalizada) <br />
+**Responsáveis pelo Desenvolvimento **: GS.DEV™ (Pseudônimo) e Eterium Network<sup>©</sup><br />
+**Email para Contato**: [GS.DEV](mailto:gs.dev.oficial@gmail.com) ou [Eterium Network](mailto:gitdevs@eteriumnetwork.net)
 
 ---
 

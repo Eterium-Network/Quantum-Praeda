@@ -3,40 +3,20 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/Eterium-Network/Quantum-Praeda?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/Eterium-Network/Quantum-Praeda?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/Eterium-Network/Quantum-Praeda?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Eterium-Network/Quantum-Praeda?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/Eterium-Network/Quantum-Praeda?style=for-the-badge)
+![Github open issues](https://img.shields.io/github/issues/Eterium-Network/Quantum-Praeda?style=for-the-badge)
+![Github open pull requests](https://img.shields.io/github/pr-raw/Eterium-Network/Quantum-Praeda?style=for-the-badge)
 
 
-<img
-    src="https://github.com/eteriumnetwok/Quantum-Praeda/blob/main/docs/assets/brand-banner.png"
-    alt="Exemplo imagem"
-/>
+[![Project Banner](https://placehold.co/600x400/png?text=Project+Banner)](https://github.com/eteriumnetwork/Quantum-Praeda/)
 
 
 > Quantum Praeda é um mod de tecnologia para Minecraft que utiliza como base a '**Engenharia Quantica**' em seu ecosistema.
 
+<!--
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-
-- Configurações e Adição de Dependencias:
-  - [x] Criação e ajustes no [`README.md`](README.md);
-  - [x] Criação e ajustes no [`LICENSE.md`](LICENSE.md);
-  - [ ] Criação e ajustes no [`CONTRIBUTING.md`](CONTRIBUTING.md);
-  - [ ] Geração automatica dos arquivos de configurações dos assets;
-  - [ ] Adição de Suporte a Mods de Utilidade e APIs;
-    - [ ] Just Enough Items - JEI;
-    - [ ] What Am I Looking At - WAILA;
-    - [ ] The One Probe - TOP;
-- Features:
-  - [ ] Implementação de geração de minérios;
-    - Definição de raridade;
-    - Definição de nivel do minério (rock...obsidian);
-  - [ ] Implementação de construção multi blocos;
-  - [ ] Implementação das Maquinas;
-    - [ ] Implementação do Sistema de Energia;
-      - [ ] Compatibilidade com outros mods;
-    - [ ] Implementação dos _"craftings"_ das maquinas;
+-->
 
 ## 💻 Pré-requisitos
 
@@ -61,10 +41,11 @@ Windows:
  C:\> curl -O https://github.com/Eterium-Netwok/release/<version>/Quantum-Praeda.jar
 ```
 
-Ou direto dos sites oficiais:
+Ou direto dos sites de distribuição:
+<!-- Ajustar os links após a publicação -->
 
-[//]: # (- [CurseForge]&#40;https://curseforge.com/&#41;)
-[//]: # (- [Modrith]&#40;https://modrith.com/&#41;)
+[CurseForge](https://curseforge.com/)
+[Modrith](https://modrith.com/)
 
 ## 📫 Contribuindo para Quantum Praeda
 
@@ -89,7 +70,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
         <img
             width="100"
             src="https://avatars.githubusercontent.com/u/89676387?s=400&u=71eb967ec877683d888ff21e02c05b422368ff70&v=4"
-            alt="Foto do GS.DEV Silva no GitHub"
+            alt="Foto do GS.DEV no GitHub"
         /><br>
         <sub>
           <b>GS.DEV™</b>

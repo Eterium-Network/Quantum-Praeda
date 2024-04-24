@@ -4,7 +4,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/Eterium-Network/Quantum-Praeda?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/Eterium-Network/Quantum-Praeda?style=for-the-badge)
 ![Github open issues](https://img.shields.io/github/issues/Eterium-Network/Quantum-Praeda?style=for-the-badge)
-![Github open pull requests](https://img.shields.io/github/pr-raw/Eterium-Network/Quantum-Praeda?style=for-the-badge)
+![Github open pull requests](https://img.shields.io/github/issues-pr-raw/Eterium-Network/Quantum-Praeda?style=for-the-badge)
 
 
 [![Project Banner](https://placehold.co/600x400/png?text=Project+Banner)](https://github.com/eteriumnetwork/Quantum-Praeda/)

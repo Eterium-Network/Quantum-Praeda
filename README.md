@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>⚛️ Quantum Praeda<sup>TM</sup></h1>
+  <h1>Quantum Praeda<sup>TM</sup></h1>
 </div>
 
 

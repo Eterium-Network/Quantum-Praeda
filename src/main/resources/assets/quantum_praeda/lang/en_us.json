@@ -1,0 +1,30 @@
+{
+  "creativeTab.quantum_praeda_ingredients_tab": "Quantum Praeda: Ingredients Tab",
+  "creativeTab.quantum_praeda_machine_tab": "Quantum Praeda: Machines Tab",
+  "creativeTab.quantum_praeda_natural_block_tab": "Quantum Praeda: Natural Blocks Tab",
+
+  "item.quantum_praeda.raw_quantumite": "Raw Quantumite",
+  "item.quantum_praeda.raw_neutrinio": "Raw Neutrínio",
+  "item.quantum_praeda.raw_gravitonita": "Raw Gravitonita",
+  "item.quantum_praeda.raw_photonita": "Raw Photonita",
+  "item.quantum_praeda.raw_spinorita": "Raw Spinorita",
+  "item.quantum_praeda.raw_entanglion": "Raw Entanglion",
+  "item.quantum_praeda.raw_supercondutita": "Raw Supercondutita",
+
+  "block.quantum_praeda.quantumite_ore": "Quantumite Ore",
+  "block.quantum_praeda.neutrinio_ore": "Neutrínio Ore",
+  "block.quantum_praeda.gravitonita_ore": "Gravitonita Ore",
+  "block.quantum_praeda.photonita_ore": "Photonita Ore",
+  "block.quantum_praeda.spinorita_ore": "Spinorita Ore",
+  "block.quantum_praeda.entanglion_ore": "Entanglion Ore",
+  "block.quantum_praeda.supercondutita_ore": "Supercondutita Ore",
+  "block.quantum_praeda.entanglion_block": "Entanglion Block",
+
+  "block.quantum_praeda.quantumite_refiner": "Quantumite Refiner",
+  "block.quantum_praeda.neutrinio_extractor": "Neutrínio Extractor",
+  "block.quantum_praeda.gravitonita_compressor": "Gravitonita Compressor",
+  "block.quantum_praeda.photonita_infuser": "Photonita Infuser",
+  "block.quantum_praeda.spinorita_assembler": "Spinorita Assembler",
+  "block.quantum_praeda.entanglion_transmitter": "Entanglion Transmitter",
+  "block.quantum_praeda.supercondutita_forge": "Supercondutita Forge"
+}

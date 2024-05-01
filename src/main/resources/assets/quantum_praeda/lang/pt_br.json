@@ -1,0 +1,30 @@
+{
+  "creativeTab.quantum_praeda_ingredients_tab": "Quantum Praeda: Ingredients Tab",
+  "creativeTab.quantum_praeda_machine_tab": "Quantum Praeda: Machines Tab",
+  "creativeTab.quantum_praeda_natural_block_tab": "Quantum Praeda: Natural Blocks Tab",
+
+  "item.quantum_praeda.raw_quantumite": "Minério de Quantumite Bruto",
+  "item.quantum_praeda.raw_neutrinio": "Minério de Neutrínio Bruto",
+  "item.quantum_praeda.raw_gravitonita": "Minério de Gravitonita Bruta",
+  "item.quantum_praeda.raw_photonita": "Minério de Photonita Bruta",
+  "item.quantum_praeda.raw_spinorita": "Minério de Spinorita Bruta",
+  "item.quantum_praeda.raw_entanglion": "Minério de Entanglion Bruto",
+  "item.quantum_praeda.raw_supercondutita": "Minério de Supercondutita Bruta",
+
+  "block.quantum_praeda.quantumite_ore": "Minério de Quantumite",
+  "block.quantum_praeda.neutrinio_ore": "Minério de Neutrínio",
+  "block.quantum_praeda.gravitonita_ore": "Minério de Gravitonita",
+  "block.quantum_praeda.photonita_ore": "Minério de Photonita",
+  "block.quantum_praeda.spinorita_ore": "Minério de Spinorita",
+  "block.quantum_praeda.entanglion_ore": "Minério de Entanglion",
+  "block.quantum_praeda.supercondutita_ore": "Minério de Supercondutita",
+  "block.quantum_praeda.entanglion_block": "Bloco de Entanglion",
+
+  "block.quantum_praeda.quantumite_refiner": "Quantumite Refiner",
+  "block.quantum_praeda.neutrinio_extractor": "Neutrínio Extractor",
+  "block.quantum_praeda.gravitonita_compressor": "Gravitonita Compressor",
+  "block.quantum_praeda.photonita_infuser": "Photonita Infuser",
+  "block.quantum_praeda.spinorita_assembler": "Spinorita Assembler",
+  "block.quantum_praeda.entanglion_transmitter": "Entanglion Transmitter",
+  "block.quantum_praeda.supercondutita_forge": "Supercondutita Forge"
+}

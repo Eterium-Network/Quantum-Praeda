@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "quantum_praeda:entanglion_block"
+    }
+  ],
+  "result": {
+    "item": "quantum_praeda:raw_entanglion",
+    "count": 9
+  }
+}

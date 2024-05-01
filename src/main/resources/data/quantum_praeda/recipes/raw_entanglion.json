@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "quantum_praeda:raw_entanglion"
+    }
+  },
+  "result": {
+    "item": "quantum_praeda:entanglion_block"
+  }
+}

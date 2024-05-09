@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "quantum_praeda:block/supercondutita_forge_down",
+    "east": "quantum_praeda:block/supercondutita_forge_east",
+    "north": "quantum_praeda:block/supercondutita_forge_north",
+    "south": "quantum_praeda:block/supercondutita_forge_south",
+    "up": "quantum_praeda:block/supercondutita_forge_up",
+    "west": "quantum_praeda:block/supercondutita_forge_west"
+  }
+}

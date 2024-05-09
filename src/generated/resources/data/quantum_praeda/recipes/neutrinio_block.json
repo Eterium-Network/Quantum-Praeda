@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "quantum_praeda:crafting_block",
+  "key": {
+    "N": {
+      "item": "quantum_praeda:raw_neutrinio"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "result": {
+    "item": "quantum_praeda:neutrinio_block"
+  },
+  "show_notification": true
+}

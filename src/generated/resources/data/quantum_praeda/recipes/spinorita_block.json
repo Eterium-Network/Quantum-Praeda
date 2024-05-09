@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "quantum_praeda:crafting_block",
+  "key": {
+    "S": {
+      "item": "quantum_praeda:raw_spinorita"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "result": {
+    "item": "quantum_praeda:spinorita_block"
+  },
+  "show_notification": true
+}

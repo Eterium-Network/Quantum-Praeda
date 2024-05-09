@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "quantum_praeda:block/neutrinio_extractor_down",
+    "east": "quantum_praeda:block/neutrinio_extractor_east",
+    "north": "quantum_praeda:block/neutrinio_extractor_north",
+    "south": "quantum_praeda:block/neutrinio_extractor_south",
+    "up": "quantum_praeda:block/neutrinio_extractor_up",
+    "west": "quantum_praeda:block/neutrinio_extractor_west"
+  }
+}

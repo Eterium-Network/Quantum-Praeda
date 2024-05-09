@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "quantum_praeda:crafting_item",
+  "ingredients": [
+    {
+      "item": "quantum_praeda:photonita_block"
+    }
+  ],
+  "result": {
+    "item": "quantum_praeda:raw_photonita"
+  }
+}

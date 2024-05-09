@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "quantum_praeda:block/quantumite_refiner_down",
+    "east": "quantum_praeda:block/quantumite_refiner_east",
+    "north": "quantum_praeda:block/quantumite_refiner_north",
+    "south": "quantum_praeda:block/quantumite_refiner_south",
+    "up": "quantum_praeda:block/quantumite_refiner_up",
+    "west": "quantum_praeda:block/quantumite_refiner_west"
+  }
+}

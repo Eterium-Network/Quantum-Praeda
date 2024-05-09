@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "quantum_praeda:block/gravitonita_compressor_down",
+    "east": "quantum_praeda:block/gravitonita_compressor_east",
+    "north": "quantum_praeda:block/gravitonita_compressor_north",
+    "south": "quantum_praeda:block/gravitonita_compressor_south",
+    "up": "quantum_praeda:block/gravitonita_compressor_up",
+    "west": "quantum_praeda:block/gravitonita_compressor_west"
+  }
+}

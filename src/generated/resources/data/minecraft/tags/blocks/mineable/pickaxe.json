@@ -1,0 +1,16 @@
+{
+  "values": [
+    "quantum_praeda:neutrinio_ore",
+    "quantum_praeda:photonita_ore",
+    "quantum_praeda:quantumite_ore",
+    "quantum_praeda:entanglion_ore",
+    "quantum_praeda:gravitonita_ore",
+    "quantum_praeda:supercondutita_ore",
+    "quantum_praeda:photonita_infuser",
+    "quantum_praeda:quantumite_refiner",
+    "quantum_praeda:neutrinio_extractor",
+    "quantum_praeda:spinorita_assembler",
+    "quantum_praeda:entanglion_transmitter",
+    "quantum_praeda:gravitonita_compressor"
+  ]
+}

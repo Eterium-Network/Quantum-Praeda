@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "quantum_praeda:block/photonita_infuser_down",
+    "east": "quantum_praeda:block/photonita_infuser_east",
+    "north": "quantum_praeda:block/photonita_infuser_north",
+    "south": "quantum_praeda:block/photonita_infuser_south",
+    "up": "quantum_praeda:block/photonita_infuser_up",
+    "west": "quantum_praeda:block/photonita_infuser_west"
+  }
+}

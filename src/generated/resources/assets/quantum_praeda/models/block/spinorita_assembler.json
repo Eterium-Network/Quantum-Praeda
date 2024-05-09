@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "quantum_praeda:block/spinorita_assembler_down",
+    "east": "quantum_praeda:block/spinorita_assembler_east",
+    "north": "quantum_praeda:block/spinorita_assembler_north",
+    "south": "quantum_praeda:block/spinorita_assembler_south",
+    "up": "quantum_praeda:block/spinorita_assembler_up",
+    "west": "quantum_praeda:block/spinorita_assembler_west"
+  }
+}

@@ -36,96 +36,105 @@ public class RegistryBlock {
         return RegistryItem.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
-    // Ores:
     public static final RegistryObject<Block> QUANTUMITE_ORE = registerBlock(
-            "quantumite_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).mapColor(MapColor.STONE)
-                    .sound(SoundType.STONE).randomTicks().requiresCorrectToolForDrops()
-            )
+        "quantumite_ore",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE))
     );
     public static final RegistryObject<Block> NEUTRINIO_ORE = registerBlock(
-            "neutrinio_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).mapColor(MapColor.STONE)
-                    .sound(SoundType.STONE).randomTicks().requiresCorrectToolForDrops()
-            )
+        "neutrinio_ore",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE))
     );
     public static final RegistryObject<Block> GRAVITONITA_ORE = registerBlock(
-            "gravitonita_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).mapColor(MapColor.STONE)
-                    .sound(SoundType.STONE).randomTicks().requiresCorrectToolForDrops()
-            )
+        "gravitonita_ore",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE))
     );
     public static final RegistryObject<Block> PHOTONITA_ORE = registerBlock(
       "photonita_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).mapColor(MapColor.STONE)
-                    .sound(SoundType.STONE).randomTicks().requiresCorrectToolForDrops()
-            )
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE))
     );
     public static final RegistryObject<Block> SPINORITA_ORE = registerBlock(
       "spinorita_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).mapColor(MapColor.STONE)
-                    .sound(SoundType.STONE).randomTicks().requiresCorrectToolForDrops()
-            )
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE))
     );
     public static final RegistryObject<Block> ENTANGLION_ORE = registerBlock(
-            "entanglion_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).mapColor(MapColor.STONE)
-                    .sound(SoundType.STONE).randomTicks().requiresCorrectToolForDrops()
-            )
+        "entanglion_ore",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE))
     );
     public static final RegistryObject<Block> SUPERCONDUTITA_ORE = registerBlock(
-            "supercondutita_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).mapColor(MapColor.STONE)
-                    .sound(SoundType.STONE).randomTicks().requiresCorrectToolForDrops()
-            )
+        "supercondutita_ore",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE))
     );
+    // Blocks:
     public static final RegistryObject<Block> ENTANGLION_BLOCK = registerBlock(
-            "entanglion_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).mapColor(MapColor.METAL)
-                    .sound(SoundType.METAL).randomTicks().requiresCorrectToolForDrops()
-            )
+        "entanglion_block",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK))
+    );
+    public static final RegistryObject<Block> QUANTUMITE_BLOCK = registerBlock(
+        "quantumite_block",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK))
+    );
+    public static final RegistryObject<Block> NEUTRINIO_BLOCK = registerBlock(
+        "neutrinio_block",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK))
+    );
+    public static final RegistryObject<Block> GRAVITONITA_BLOCK = registerBlock(
+        "gravitonita_block",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK))
+    );
+    public static final RegistryObject<Block> PHOTONITA_BLOCK = registerBlock(
+        "photonita_block",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK))
+    );
+    public static final RegistryObject<Block> SPINORITA_BLOCK = registerBlock(
+        "spinorita_block",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK))
+    );
+    public static final RegistryObject<Block> SUPERCONDUTITA_BLOCK = registerBlock(
+        "supercondutita_block",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK))
     );
 
-    //Machines:
     public static final RegistryObject<Block> QUANTUMITE_REFINER = registerBlock(
         "quantumite_refiner",
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
-                .mapColor(MapColor.METAL).sound(SoundType.METAL).randomTicks().requiresCorrectToolForDrops()
+            .mapColor(MapColor.METAL).sound(SoundType.METAL).randomTicks().requiresCorrectToolForDrops()
         )
     );
     public static final RegistryObject<Block> NEUTRINIO_EXTRACTOR = registerBlock(
-            "neutrinio_extractor",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).mapColor(MapColor.METAL)
-                    .sound(SoundType.METAL).randomTicks().requiresCorrectToolForDrops()
-            )
+        "neutrinio_extractor",
+        () -> new Block(
+            BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).mapColor(MapColor.METAL)
+            .sound(SoundType.METAL).randomTicks().requiresCorrectToolForDrops()
+        )
     );
     public static final RegistryObject<Block> GRAVITONITA_COMPRESSOR = registerBlock(
-            "gravitonita_compressor",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).mapColor(MapColor.METAL)
-                    .sound(SoundType.METAL).randomTicks().requiresCorrectToolForDrops()
-            )
+        "gravitonita_compressor",
+        () -> new Block(
+            BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).mapColor(MapColor.METAL)
+            .sound(SoundType.METAL).randomTicks().requiresCorrectToolForDrops()
+        )
     );
     public static final RegistryObject<Block> PHOTONITA_INFUSER = registerBlock(
-            "photonita_infuser",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).mapColor(MapColor.METAL)
-                    .sound(SoundType.METAL).randomTicks().requiresCorrectToolForDrops()
-            )
+        "photonita_infuser",
+        () -> new Block(
+            BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).mapColor(MapColor.METAL)
+            .sound(SoundType.METAL).randomTicks().requiresCorrectToolForDrops()
+        )
     );
     public static final RegistryObject<Block> SPINORITA_ASSEMBLER = registerBlock(
-            "spinorita_assembler",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).mapColor(MapColor.METAL)
-                    .sound(SoundType.METAL).randomTicks().requiresCorrectToolForDrops()
-            )
+        "spinorita_assembler",
+        () -> new Block(
+            BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).mapColor(MapColor.METAL)
+            .sound(SoundType.METAL).randomTicks().requiresCorrectToolForDrops()
+        )
     );
     public static final RegistryObject<Block> ENTANGLION_TRANSMITTER = registerBlock(
-            "entanglion_transmitter",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).mapColor(MapColor.METAL)
-                    .sound(SoundType.METAL).randomTicks().requiresCorrectToolForDrops()
-            )
+        "entanglion_transmitter",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK))
     );
     public static final RegistryObject<Block> SUPERCONDUTITA_FORGE = registerBlock(
-            "supercondutita_forge",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK))
+        "supercondutita_forge",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK))
     );
 
     public static void init(IEventBus modEventBus) {

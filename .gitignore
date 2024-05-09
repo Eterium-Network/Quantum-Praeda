@@ -829,3 +829,5 @@ Temporary Items
 # Log Files
 **/logs/**
 **/log/**
+
+!**/resources/**

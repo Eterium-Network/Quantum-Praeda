@@ -6,7 +6,7 @@
 
 > Quantum Praeda é um mod de tecnologia para Minecraft que utiliza como base a '**Engenharia Quantica**' em seu ecosistema.
 
-[![DevLog](https://img.shields.io/static/V1?label=DevLog%20Chanel&message=Invite%20Discord%20Server&color=5865F2&logo=discord)](https://discord.com/invite/PmDBrUhMuR)
+[![DevLog](https://img.shields.io/static/V1?label=DevLog%20Chanel&message=Invite%20Discord%20Server&color=5865F2&logo=discord&style=for-the-badge)](https://discord.com/invite/PmDBrUhMuR)
 [![LICENSE](https://img.shields.io/static/v1?label=CC&message=BY-SA%204.0&color=EF9421&style=for-the-badge&logo=creative%20commons)](LICENSE.md)
 [![FORGE](https://img.shields.io/static/v1?label=Forge%20MDK&message=1.20.1-47.2+&color=000&style=for-the-badge&logo=conda-forge)](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html)
 [![RELEASE](https://img.shields.io/static/v1?label=Version&message=v1.0.0-SNAPSHOT&color=0230CA&style=for-the-badge)]()

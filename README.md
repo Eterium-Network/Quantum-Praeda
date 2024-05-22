@@ -1,19 +1,28 @@
 <div align="center">
   <h1>Quantum Praeda™</h1>
-</div>
 
 [![Project Banner](https://placehold.co/600x400/png?text=Project+Banner)](https://github.com/eteriumnetwork/Quantum-Praeda/)
 
-> Quantum Praeda é um mod de tecnologia para Minecraft que utiliza como base a '**Engenharia Quantica**' em seu ecosistema.
+<div align="justify">
 
-[![DevLog](https://img.shields.io/static/V1?label=DevLog%20Chanel&message=Invite%20Discord%20Server&color=5865F2&style=for-the-badge&logo=discord)](https://discord.com/invite/PmDBrUhMuR)
+> Quantum Praeda é um mod de tecnologia para Minecraft que utiliza como base a '**Engenharia Quantica**' da ficção cientifica em seu ecosistema.
+
+</div>
+
+---
+
+[![DevLog](https://img.shields.io/static/v1?label=DevLog%20Chanel&message=Invite&color=5865F2&style=for-the-badge&logo=discord)](https://discord.com/invite/PmDBrUhMuR)
 [![LICENSE](https://img.shields.io/static/v1?label=CC&message=BY-SA%204.0&color=EF9421&style=for-the-badge&logo=creative%20commons)](LICENSE.md)
 [![FORGE](https://img.shields.io/static/v1?label=Forge%20MDK&message=1.20.1-47.2+&color=000&style=for-the-badge&logo=conda-forge)](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html)
-[![RELEASE](https://img.shields.io/static/v1?label=Version&message=v1.0.0-SNAPSHOT&color=0230CA&style=for-the-badge)]()
+[![RELEASE](https://img.shields.io/static/v1?label=Version&message=v1.0-SNAPSHOT&color=0230CA&style=for-the-badge)]()
 [![ISSUE's FEATURES](https://img.shields.io/github/issues-search/Eterium-Network/Quantum-Praeda?label=Features&query=label%3Aenhancement&color=181717&style=for-the-badge&logo=github)](https://github.com/Eterium-Network/Quantum-Praeda/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
 [![ISSUE's BUG's](https://img.shields.io/github/issues-search/Eterium-Network/Quantum-Praeda?label=Bugs&query=label%3Abug&color=181717&style=for-the-badge&logo=github)](https://github.com/Eterium-Network/Quantum-Praeda/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
 
-### Ajustes e melhorias
+---
+
+</div>
+
+### ✨ Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas _features_ a serem desenvolvidas são:
 
@@ -22,37 +31,72 @@ O projeto ainda está em desenvolvimento e as próximas _features_ a serem desen
 - Implementação dos crafts;
 - Criação das texturas dos itens;
 - Criação das texturas dos mineiros;
-- Planejamento de marketing e jogabilidade;
-
+- Planejamento de jogabilidade;
 
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-- Você instalou a versão `47.2.23` do `Forge`;
-- Você instalou a versão `1.20.1` do `Minecraft`;
+- Você instalou a versão `17` do `JDK`;
+- Você instalou a versão `8.1.1` do `Gradle`;
+- Você instalou uma `IDE para desenvolvimento Java`;
 
-## 🚀 Instalando Quantum Praeda
+## 🚀 Buildando o Quantum Praeda localmente
 
-Para instalar o Quantum Praeda, siga estas etapas:
+Para buildar o Quantum Praeda, siga estas etapas:
 
-Linux e macOS:
+1. Realize o clone do projeto:
+
+Windows, Linux e macOS:
 
 ```bash
-  $ curl -O https://github.com/Eterium-Netwok/release/<version>/Quantum-Praeda.jar
+  git clone https://github.com/Eterium-Network/Quantum-Praeda.git
 ```
 
-Windows:
+2. Execute os comandos para preparar o ambiente:
 
-```shell 
- C:\> curl -O https://github.com/Eterium-Netwok/release/<version>/Quantum-Praeda.jar
-```
+- Para o IntelliJ IDEA:
 
-Ou direto dos sites de distribuição:
+    Windows, Linux e macOS:
+    ```bash
+      ./Quantum-Praeda/gradlew genIntellijRuns
+    ```
+
+- Para o Eclipse IDE:
+
+    Windows, Linux e macOS:
+    ```bash
+      ./Quantum-Praeda/gradlew genEclipseRuns
+    ```
+
+- Para o VSCode:
+
+    Windows, Linux e macOS:
+    ```bash
+      ./Quantum-Praeda/gradlew genVSCodeRuns
+    ```
+
+3. Compilando o código fonte:
+
+- Gerando os dados dinamicos:
+  
+    Windows, Linux e macOS:
+    ```bash
+        ./Quantum-Praeda/gradlew runData
+    ```
+    
+- Buildando o código fonte:
+  
+    Windows, Linux e macOS:
+    ```bash
+        ./Quantum-Praeda/gradlew build
+    ```
+
+Ou pode baixar o Quantum Praeda já buildado direto dos sites oficiais:
 <!-- Ajustar os links após a publicação -->
 
-[CurseForge](https://curseforge.com/)
-[Modrith](https://modrinth.com/mod/quantum-praeda)
+- **[CurseForge](https://curseforge.com/minecraft/mc-mods/quantum-praeda)**
+- **[Modrith](https://modrinth.com/mod/quantum-praeda)**
 
 ## 📫 Contribuindo para Quantum Praeda
 

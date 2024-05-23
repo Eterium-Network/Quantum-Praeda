@@ -1,0 +1,4 @@
+// 1.20.1	2024-05-23T18:43:28.8611097	Tags for minecraft:block mod id quantum_praeda
+69a678a62ddf07950b5306063c943d2fa4196436 data/minecraft/tags/blocks/mineable/pickaxe.json
+2c9e82a306ad573f523635d507a0bdbf75813aa6 data/minecraft/tags/blocks/needs_diamond_tool.json
+47ce6d95a78ee6ac3c2da14e70e35954db791be7 data/minecraft/tags/blocks/needs_iron_tool.json

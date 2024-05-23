@@ -3,10 +3,7 @@ package net.eteriumnetwork.quantum_praeda.init.datagen;
 import net.eteriumnetwork.quantum_praeda.QuantumPraeda;
 import net.eteriumnetwork.quantum_praeda.init.datagen.client.QPBlockStateAndModelProvider;
 import net.eteriumnetwork.quantum_praeda.init.datagen.client.QPItemModelProvider;
-import net.eteriumnetwork.quantum_praeda.init.datagen.server.QPBlockTagProvider;
-import net.eteriumnetwork.quantum_praeda.init.datagen.server.QPItemTagProvider;
-import net.eteriumnetwork.quantum_praeda.init.datagen.server.QPLootTableProvider;
-import net.eteriumnetwork.quantum_praeda.init.datagen.server.QPRecipeProvider;
+import net.eteriumnetwork.quantum_praeda.init.datagen.server.*;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -49,6 +46,7 @@ public class QPDataGenerator {
                 existingFileHelper
             )
         );
+        dataGenerator.addProvider(event.includeServer(), new QPWorldGeneratorProvider(dataOutput, lookupProvider));
 
         // Client Data Generation
         dataGenerator.addProvider(

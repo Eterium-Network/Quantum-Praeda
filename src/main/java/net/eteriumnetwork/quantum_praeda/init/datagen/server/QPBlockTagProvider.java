@@ -20,13 +20,13 @@ public class QPBlockTagProvider extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.@NotNull Provider provider) {
 
-        this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
-            .add(RegistryBlock.NEUTRINIO_ORE.get())
-            .add(RegistryBlock.PHOTONITA_ORE.get())
-            .add(RegistryBlock.QUANTUMITE_ORE.get())
-            .add(RegistryBlock.ENTANGLION_ORE.get())
-            .add(RegistryBlock.GRAVITONITA_ORE.get())
-            .add(RegistryBlock.SUPERCONDUTITA_ORE.get());
+//        this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
+//            .add(RegistryBlock.NETHER_NEUTRINIO_ORE.get())
+//            .add(RegistryBlock.NETHER_PHOTONITA_ORE.get())
+//            .add(RegistryBlock.NETHER_QUANTUMITE_ORE.get())
+//            .add(RegistryBlock.NETHER_ENTANGLION_ORE.get())
+//            .add(RegistryBlock.NETHER_GRAVITONITA_ORE.get())
+//            .add(RegistryBlock.NETHER_SUPERCONDUTITA_ORE.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
             .add(RegistryBlock.NEUTRINIO_ORE.get())
@@ -51,6 +51,21 @@ public class QPBlockTagProvider extends BlockTagsProvider {
             .add(RegistryBlock.ENTANGLION_ORE.get())
             .add(RegistryBlock.GRAVITONITA_ORE.get())
             .add(RegistryBlock.SUPERCONDUTITA_ORE.get())
+            .add(RegistryBlock.DEEPSLATE_NEUTRINIO_ORE.get())
+            .add(RegistryBlock.DEEPSLATE_PHOTONITA_ORE.get())
+            .add(RegistryBlock.DEEPSLATE_QUANTUMITE_ORE.get())
+            .add(RegistryBlock.DEEPSLATE_ENTANGLION_ORE.get())
+            .add(RegistryBlock.DEEPSLATE_GRAVITONITA_ORE.get())
+            .add(RegistryBlock.DEEPSLATE_SUPERCONDUTITA_ORE.get())            .add(RegistryBlock.DEEPSLATE_NEUTRINIO_ORE.get())
+//            .add(RegistryBlock.NETHER_PHOTONITA_ORE.get())
+//            .add(RegistryBlock.NETHER_QUANTUMITE_ORE.get())
+//            .add(RegistryBlock.NETHER_ENTANGLION_ORE.get())
+//            .add(RegistryBlock.NETHER_GRAVITONITA_ORE.get())
+//            .add(RegistryBlock.NETHER_SUPERCONDUTITA_ORE.get())            .add(RegistryBlock.NETHER_PHOTONITA_ORE.get())
+//            .add(RegistryBlock.END_QUANTUMITE_ORE.get())
+//            .add(RegistryBlock.END_ENTANGLION_ORE.get())
+//            .add(RegistryBlock.END_GRAVITONITA_ORE.get())
+//            .add(RegistryBlock.END_SUPERCONDUTITA_ORE.get())
             .add(RegistryBlock.PHOTONITA_INFUSER.get())
             .add(RegistryBlock.QUANTUMITE_REFINER.get())
             .add(RegistryBlock.NEUTRINIO_EXTRACTOR.get())

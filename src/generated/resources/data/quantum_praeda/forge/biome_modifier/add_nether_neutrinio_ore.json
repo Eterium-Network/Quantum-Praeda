@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": "quantum_praeda:nether_neutrinio_ore_placed",
+  "step": "underground_ores"
+}

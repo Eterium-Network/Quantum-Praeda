@@ -34,10 +34,6 @@ public class QPConfiguredFeature {
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_NEUTRINIO_ORE_KEY =
             registerKey(RegistryBlock.END_NEUTRINIO_ORE.getId().getPath());
 
-    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_GRAVITONITA_ORE_KEY =
-            registerKey(RegistryBlock.GRAVITONITA_ORE.getId().getPath());
-    public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_GRAVITONITA_ORE_KEY =
-            registerKey(RegistryBlock.NETHER_GRAVITONITA_ORE.getId().getPath());
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_GRAVITONITA_ORE_KEY =
             registerKey(RegistryBlock.END_GRAVITONITA_ORE.getId().getPath());
 
@@ -51,12 +47,10 @@ public class QPConfiguredFeature {
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_ENTANGLION_ORE_KEY =
             registerKey(RegistryBlock.END_ENTANGLION_ORE.getId().getPath());
 
-    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_SUPERCONDUTITA_ORE_KEY =
-            registerKey(RegistryBlock.SUPERCONDUTITA_ORE.getId().getPath());
+    public static final ResourceKey<ConfiguredFeature<?,?>> DEEPSLATE_SUPERCONDUTITA_ORE_KEY =
+            registerKey(RegistryBlock.DEEPSLATE_SUPERCONDUTITA_ORE.getId().getPath());
     public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_SUPERCONDUTITA_ORE_KEY =
             registerKey(RegistryBlock.NETHER_SUPERCONDUTITA_ORE.getId().getPath());
-    public static final ResourceKey<ConfiguredFeature<?, ?>> END_SUPERCONDUTITA_ORE_KEY =
-            registerKey(RegistryBlock.END_SUPERCONDUTITA_ORE.getId().getPath());
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_SPINORITA_ORE_KEY =
             registerKey(RegistryBlock.SPINORITA_ORE.getId().getPath());
@@ -69,6 +63,7 @@ public class QPConfiguredFeature {
         RuleTest stoneReplaceable = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepSlateReplaceable = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
         RuleTest netherRackReplaceable = new BlockMatchTest(Blocks.NETHERRACK);
+        RuleTest magmaBlock = new BlockMatchTest(Blocks.MAGMA_BLOCK);
         RuleTest endReplaceable = new BlockMatchTest(Blocks.END_STONE);
 
         // --------------------------------------OVERWORLD--------------------------------------------- \\
@@ -92,24 +87,10 @@ public class QPConfiguredFeature {
                         RegistryBlock.DEEPSLATE_NEUTRINIO_ORE.get().defaultBlockState()
                 )
         );
-        List<OreConfiguration.TargetBlockState> overworld_gravitonita_ore = List.of(
-                OreConfiguration.target(
-                        stoneReplaceable,
-                        RegistryBlock.GRAVITONITA_ORE.get().defaultBlockState()
-                ),
-                OreConfiguration.target(
-                        deepSlateReplaceable,
-                        RegistryBlock.DEEPSLATE_GRAVITONITA_ORE.get().defaultBlockState()
-                )
-        );
         List<OreConfiguration.TargetBlockState> overworld_photonita_ore = List.of(
                 OreConfiguration.target(
                         stoneReplaceable,
                         RegistryBlock.PHOTONITA_ORE.get().defaultBlockState()
-                ),
-                OreConfiguration.target(
-                        deepSlateReplaceable,
-                        RegistryBlock.DEEPSLATE_PHOTONITA_ORE.get().defaultBlockState()
                 )
         );
         List<OreConfiguration.TargetBlockState> overworld_spinorita_ore = List.of(
@@ -132,13 +113,9 @@ public class QPConfiguredFeature {
                         RegistryBlock.DEEPSLATE_ENTANGLION_ORE.get().defaultBlockState()
                 )
         );
-        List<OreConfiguration.TargetBlockState> overworld_supercondutita_ore = List.of(
+        List<OreConfiguration.TargetBlockState> deepslate_supercondutita_ore = List.of(
                 OreConfiguration.target(
-                        stoneReplaceable,
-                        RegistryBlock.SUPERCONDUTITA_ORE.get().defaultBlockState()
-                ),
-                OreConfiguration.target(
-                        deepSlateReplaceable,
+                        magmaBlock,
                         RegistryBlock.DEEPSLATE_SUPERCONDUTITA_ORE.get().defaultBlockState()
                 )
         );
@@ -155,28 +132,23 @@ public class QPConfiguredFeature {
         );
         register(
                 context,
-                OVERWORLD_GRAVITONITA_ORE_KEY,
-                Feature.ORE, new OreConfiguration(overworld_gravitonita_ore, 9)
-        );
-        register(
-                context,
                 OVERWORLD_PHOTONITA_ORE_KEY,
                 Feature.ORE, new OreConfiguration(overworld_photonita_ore, 9)
         );
         register(
                 context,
                 OVERWORLD_ENTANGLION_ORE_KEY,
-                Feature.ORE, new OreConfiguration(overworld_spinorita_ore, 9)
-        );
-        register(
-                context,
-                OVERWORLD_SUPERCONDUTITA_ORE_KEY,
                 Feature.ORE, new OreConfiguration(overworld_entanglion_ore, 9)
         );
         register(
                 context,
                 OVERWORLD_SPINORITA_ORE_KEY,
-                Feature.ORE, new OreConfiguration(overworld_supercondutita_ore, 9)
+                Feature.ORE, new OreConfiguration(overworld_spinorita_ore, 9)
+        );
+        register(
+                context,
+                DEEPSLATE_SUPERCONDUTITA_ORE_KEY,
+                Feature.ORE, new OreConfiguration(deepslate_supercondutita_ore, 9)
         );
         // --------------------------------------NETHER--------------------------------------------- \\
         register(
@@ -201,16 +173,6 @@ public class QPConfiguredFeature {
         );
         register(
                 context,
-                NETHER_GRAVITONITA_ORE_KEY,
-                Feature.ORE,
-                new OreConfiguration(
-                        netherRackReplaceable,
-                        RegistryBlock.NETHER_GRAVITONITA_ORE.get().defaultBlockState(),
-                        9
-                )
-        );
-        register(
-                context,
                 NETHER_ENTANGLION_ORE_KEY,
                 Feature.ORE,
                 new OreConfiguration(
@@ -224,7 +186,7 @@ public class QPConfiguredFeature {
                 NETHER_SUPERCONDUTITA_ORE_KEY,
                 Feature.ORE,
                 new OreConfiguration(
-                        netherRackReplaceable,
+                        magmaBlock,
                         RegistryBlock.NETHER_SUPERCONDUTITA_ORE.get().defaultBlockState(),
                         9
                 )
@@ -277,16 +239,6 @@ public class QPConfiguredFeature {
                 new OreConfiguration(
                         endReplaceable,
                         RegistryBlock.END_ENTANGLION_ORE.get().defaultBlockState(),
-                        9
-                )
-        );
-        register(
-                context,
-                END_SUPERCONDUTITA_ORE_KEY,
-                Feature.ORE,
-                new OreConfiguration(
-                        endReplaceable,
-                        RegistryBlock.END_SUPERCONDUTITA_ORE.get().defaultBlockState(),
                         9
                 )
         );

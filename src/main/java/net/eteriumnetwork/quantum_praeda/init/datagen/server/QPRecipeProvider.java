@@ -19,45 +19,34 @@ public class QPRecipeProvider extends RecipeProvider implements IConditionBuilde
 
     private static final List<ItemLike> ENTANGLION_ORE_FUNGIBLE = List.of(
             RegistryBlock.ENTANGLION_ORE.get(),
-            RegistryBlock.DEEPSLATE_ENTANGLION_ORE.get()
-//            RegistryBlock.NETHER_ENTANGLION_ORE.get(),
-//            RegistryBlock.END_ENTANGLION_ORE.get()
-    );
-    private static final List<ItemLike> GRAVITONITA_ORE_FUNGIBLE = List.of(
-            RegistryBlock.GRAVITONITA_ORE.get(),
-            RegistryBlock.DEEPSLATE_GRAVITONITA_ORE.get()
-//            RegistryBlock.NETHER_GRAVITONITA_ORE.get(),
-//            RegistryBlock.END_GRAVITONITA_ORE.get()
+            RegistryBlock.DEEPSLATE_ENTANGLION_ORE.get(),
+            RegistryBlock.NETHER_ENTANGLION_ORE.get(),
+            RegistryBlock.END_ENTANGLION_ORE.get()
     );
     private static final List<ItemLike> SUPERCONDUTITA_ORE_FUNGIBLE = List.of(
-            RegistryBlock.SUPERCONDUTITA_ORE.get(),
-            RegistryBlock.DEEPSLATE_SUPERCONDUTITA_ORE.get()
-//            RegistryBlock.NETHER_SUPERCONDUTITA_ORE.get(),
-//            RegistryBlock.END_SUPERCONDUTITA_ORE.get()
+            RegistryBlock.DEEPSLATE_SUPERCONDUTITA_ORE.get(),
+            RegistryBlock.NETHER_SUPERCONDUTITA_ORE.get()
     );
     private static final List<ItemLike> SPINORITA_ORE_FUNGIBLE = List.of(
             RegistryBlock.SPINORITA_ORE.get(),
-            RegistryBlock.DEEPSLATE_SPINORITA_ORE.get()
-//            RegistryBlock.NETHER_SPINORITA_ORE.get(),
-//            RegistryBlock.END_SPINORITA_ORE.get()
+            RegistryBlock.DEEPSLATE_SPINORITA_ORE.get(),
+            RegistryBlock.NETHER_SPINORITA_ORE.get(),
+            RegistryBlock.END_SPINORITA_ORE.get()
     );
     private static final List<ItemLike> NEUTRINIO_ORE_FUNGIBLE = List.of(
             RegistryBlock.NEUTRINIO_ORE.get(),
-            RegistryBlock.DEEPSLATE_NEUTRINIO_ORE.get()
-//            RegistryBlock.NETHER_NEUTRINIO_ORE.get(),
-//            RegistryBlock.END_NEUTRINIO_ORE.get()
+            RegistryBlock.DEEPSLATE_NEUTRINIO_ORE.get(),
+            RegistryBlock.NETHER_NEUTRINIO_ORE.get(),
+            RegistryBlock.END_NEUTRINIO_ORE.get()
     );
     private static final List<ItemLike> PHOTONITA_ORE_FUNGIBLE = List.of(
-            RegistryBlock.PHOTONITA_ORE.get(),
-            RegistryBlock.DEEPSLATE_PHOTONITA_ORE.get()
-//            RegistryBlock.NETHER_PHOTONITA_ORE.get(),
-//            RegistryBlock.END_PHOTONITA_ORE.get()
+            RegistryBlock.PHOTONITA_ORE.get()
     );
     private static final List<ItemLike> QUANTUMITE_ORE_FUNGIBLE = List.of(
             RegistryBlock.QUANTUMITE_ORE.get(),
-            RegistryBlock.DEEPSLATE_QUANTUMITE_ORE.get()
-//            RegistryBlock.NETHER_QUANTUMITE_ORE.get(),
-//            RegistryBlock.END_QUANTUMITE_ORE.get()
+            RegistryBlock.DEEPSLATE_QUANTUMITE_ORE.get(),
+            RegistryBlock.NETHER_QUANTUMITE_ORE.get(),
+            RegistryBlock.END_QUANTUMITE_ORE.get()
     );
 
     public QPRecipeProvider(PackOutput output) {
@@ -98,24 +87,6 @@ public class QPRecipeProvider extends RecipeProvider implements IConditionBuilde
             .unlockedBy(getHasName(RegistryBlock.ENTANGLION_BLOCK.get()), has(RegistryBlock.ENTANGLION_BLOCK.get()))
             .save(writer);
 
-        oreBlasting(
-                writer,
-                GRAVITONITA_ORE_FUNGIBLE,
-                RecipeCategory.MISC,
-                RegistryItem.RAW_GRAVITONITA.get(),
-                0.25f,
-                100,
-                QuantumPraeda.MODID+":crafting_ore_processing"
-        );
-        oreSmelting(
-                writer,
-                GRAVITONITA_ORE_FUNGIBLE,
-                RecipeCategory.MISC,
-                RegistryItem.RAW_GRAVITONITA.get(),
-                0.25f,
-                100,
-                QuantumPraeda.MODID+":crafting_ore_processing"
-        );
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RegistryBlock.GRAVITONITA_BLOCK.get())
             .pattern("GGG")
             .pattern("GGG")

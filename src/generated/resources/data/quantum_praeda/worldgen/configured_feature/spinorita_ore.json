@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "quantum_praeda:supercondutita_ore"
+          "Name": "quantum_praeda:spinorita_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
@@ -15,7 +15,7 @@
       },
       {
         "state": {
-          "Name": "quantum_praeda:deepslate_supercondutita_ore"
+          "Name": "quantum_praeda:deepslate_spinorita_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",

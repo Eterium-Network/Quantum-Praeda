@@ -1,6 +1,11 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "quantum_praeda:block/end_gravitonita_ore"
+    "down": "quantum_praeda:block/end_gravitonita_ore_down",
+    "east": "quantum_praeda:block/end_gravitonita_ore",
+    "north": "quantum_praeda:block/end_gravitonita_ore",
+    "south": "quantum_praeda:block/end_gravitonita_ore",
+    "up": "quantum_praeda:block/end_gravitonita_ore_up",
+    "west": "quantum_praeda:block/end_gravitonita_ore"
   }
 }

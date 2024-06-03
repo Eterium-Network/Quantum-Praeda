@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nether_spinorita_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quantum_praeda:nether_spinorita_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "quantum_praeda:raw_spinorita_from_smelting_nether_spinorita_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_spinorita_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantum_praeda:raw_spinorita_from_smelting_nether_spinorita_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

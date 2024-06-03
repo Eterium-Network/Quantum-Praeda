@@ -1,6 +1,11 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "quantum_praeda:block/nether_supercondutita_ore"
+    "down": "quantum_praeda:block/nether_supercondutita_ore",
+    "east": "quantum_praeda:block/nether_supercondutita_ore_sides",
+    "north": "quantum_praeda:block/nether_supercondutita_ore_sides",
+    "south": "quantum_praeda:block/nether_supercondutita_ore_sides",
+    "up": "quantum_praeda:block/nether_supercondutita_ore",
+    "west": "quantum_praeda:block/nether_supercondutita_ore_sides"
   }
 }

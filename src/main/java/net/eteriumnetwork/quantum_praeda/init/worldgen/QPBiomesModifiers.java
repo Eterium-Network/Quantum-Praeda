@@ -30,10 +30,6 @@ public class QPBiomesModifiers {
     public static final ResourceKey<BiomeModifier> ADD_END_NEUTRINIO_ORE_KEY =
             registerKey("add_"+RegistryBlock.END_NEUTRINIO_ORE.getId().getPath());
 
-    public static final ResourceKey<BiomeModifier> ADD_OVERWORLD_GRAVITONITA_ORE_KEY =
-            registerKey("add_"+RegistryBlock.GRAVITONITA_ORE.getId().getPath());
-    public static final ResourceKey<BiomeModifier> ADD_NETHER_GRAVITONITA_ORE_KEY =
-            registerKey("add_"+RegistryBlock.NETHER_GRAVITONITA_ORE.getId().getPath());
     public static final ResourceKey<BiomeModifier> ADD_END_GRAVITONITA_ORE_KEY =
             registerKey("add_"+RegistryBlock.END_GRAVITONITA_ORE.getId().getPath());
 
@@ -47,12 +43,10 @@ public class QPBiomesModifiers {
     public static final ResourceKey<BiomeModifier> ADD_END_ENTANGLION_ORE_KEY =
             registerKey("add_"+RegistryBlock.END_ENTANGLION_ORE.getId().getPath());
 
-    public static final ResourceKey<BiomeModifier> ADD_OVERWORLD_SUPERCONDUTITA_ORE_KEY =
-            registerKey("add_"+RegistryBlock.SUPERCONDUTITA_ORE.getId().getPath());
+    public static final ResourceKey<BiomeModifier> ADD_DEEPSLATE_SUPERCONDUTITA_ORE_KEY =
+            registerKey("add_"+RegistryBlock.DEEPSLATE_SUPERCONDUTITA_ORE.getId().getPath());
     public static final ResourceKey<BiomeModifier> ADD_NETHER_SUPERCONDUTITA_ORE_KEY =
             registerKey("add_"+RegistryBlock.NETHER_SUPERCONDUTITA_ORE.getId().getPath());
-    public static final ResourceKey<BiomeModifier> ADD_END_SUPERCONDUTITA_ORE_KEY =
-            registerKey("add_"+RegistryBlock.END_SUPERCONDUTITA_ORE.getId().getPath());
 
     public static final ResourceKey<BiomeModifier> ADD_OVERWORLD_SPINORITA_ORE_KEY =
             registerKey("add_"+RegistryBlock.SPINORITA_ORE.getId().getPath());
@@ -115,22 +109,6 @@ public class QPBiomesModifiers {
                 )
         );
         context.register(
-                ADD_OVERWORLD_GRAVITONITA_ORE_KEY,
-                new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
-                        biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                        HolderSet.direct(placedFeatures.getOrThrow(QPPlacedFeature.OVERWORLD_GRAVITONITA_ORE_PLACED_KEY)),
-                        GenerationStep.Decoration.UNDERGROUND_ORES
-                )
-        );
-        context.register(
-                ADD_NETHER_GRAVITONITA_ORE_KEY,
-                new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
-                        biomes.getOrThrow(BiomeTags.IS_NETHER),
-                        HolderSet.direct(placedFeatures.getOrThrow(QPPlacedFeature.NETHER_GRAVITONITA_ORE_PLACED_KEY)),
-                        GenerationStep.Decoration.UNDERGROUND_ORES
-                )
-        );
-        context.register(
                 ADD_END_GRAVITONITA_ORE_KEY,
                 new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                         biomes.getOrThrow(BiomeTags.IS_END),
@@ -171,14 +149,6 @@ public class QPBiomesModifiers {
                 )
         );
         context.register(
-                ADD_OVERWORLD_SUPERCONDUTITA_ORE_KEY,
-                new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
-                        biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                        HolderSet.direct(placedFeatures.getOrThrow(QPPlacedFeature.OVERWORLD_SUPERCONDUTITA_ORE_PLACED_KEY)),
-                        GenerationStep.Decoration.UNDERGROUND_ORES
-                )
-        );
-        context.register(
                 ADD_NETHER_SUPERCONDUTITA_ORE_KEY,
                 new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                         biomes.getOrThrow(BiomeTags.IS_NETHER),
@@ -187,10 +157,10 @@ public class QPBiomesModifiers {
                 )
         );
         context.register(
-                ADD_END_SUPERCONDUTITA_ORE_KEY,
+                ADD_DEEPSLATE_SUPERCONDUTITA_ORE_KEY,
                 new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
-                        biomes.getOrThrow(BiomeTags.IS_END),
-                        HolderSet.direct(placedFeatures.getOrThrow(QPPlacedFeature.END_SUPERCONDUTITA_ORE_PLACED_KEY)),
+                        biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
+                        HolderSet.direct(placedFeatures.getOrThrow(QPPlacedFeature.DEEPSLATE_SUPERCONDUTITA_ORE_PLACED_KEY)),
                         GenerationStep.Decoration.UNDERGROUND_ORES
                 )
         );

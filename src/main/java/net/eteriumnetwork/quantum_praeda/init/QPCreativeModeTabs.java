@@ -28,7 +28,6 @@ public class QPCreativeModeTabs {
                     output.accept(RegistryItem.RAW_SUPERCONDUTITA.get());
 
                     output.accept(RegistryBlock.ENTANGLION_BLOCK.get());
-                    output.accept(RegistryBlock.ENTANGLION_BLOCK.get());
                     output.accept(RegistryBlock.GRAVITONITA_BLOCK.get());
                     output.accept(RegistryBlock.NEUTRINIO_BLOCK.get());
                     output.accept(RegistryBlock.PHOTONITA_BLOCK.get());
@@ -37,25 +36,19 @@ public class QPCreativeModeTabs {
                     output.accept(RegistryBlock.SUPERCONDUTITA_BLOCK.get());
 
                     output.accept(RegistryBlock.ENTANGLION_ORE.get());
-                    output.accept(RegistryBlock.GRAVITONITA_ORE.get());
                     output.accept(RegistryBlock.NEUTRINIO_ORE.get());
                     output.accept(RegistryBlock.PHOTONITA_ORE.get());
                     output.accept(RegistryBlock.QUANTUMITE_ORE.get());
                     output.accept(RegistryBlock.SPINORITA_ORE.get());
-                    output.accept(RegistryBlock.SUPERCONDUTITA_ORE.get());
 
                     output.accept(RegistryBlock.DEEPSLATE_ENTANGLION_ORE.get());
-                    output.accept(RegistryBlock.DEEPSLATE_GRAVITONITA_ORE.get());
                     output.accept(RegistryBlock.DEEPSLATE_NEUTRINIO_ORE.get());
-                    output.accept(RegistryBlock.DEEPSLATE_PHOTONITA_ORE.get());
                     output.accept(RegistryBlock.DEEPSLATE_QUANTUMITE_ORE.get());
                     output.accept(RegistryBlock.DEEPSLATE_SPINORITA_ORE.get());
                     output.accept(RegistryBlock.DEEPSLATE_SUPERCONDUTITA_ORE.get());
 
                     output.accept(RegistryBlock.NETHER_ENTANGLION_ORE.get());
-                    output.accept(RegistryBlock.NETHER_GRAVITONITA_ORE.get());
                     output.accept(RegistryBlock.NETHER_NEUTRINIO_ORE.get());
-                    output.accept(RegistryBlock.NETHER_PHOTONITA_ORE.get());
                     output.accept(RegistryBlock.NETHER_QUANTUMITE_ORE.get());
                     output.accept(RegistryBlock.NETHER_SPINORITA_ORE.get());
                     output.accept(RegistryBlock.NETHER_SUPERCONDUTITA_ORE.get());
@@ -63,10 +56,8 @@ public class QPCreativeModeTabs {
                     output.accept(RegistryBlock.END_ENTANGLION_ORE.get());
                     output.accept(RegistryBlock.END_GRAVITONITA_ORE.get());
                     output.accept(RegistryBlock.END_NEUTRINIO_ORE.get());
-                    output.accept(RegistryBlock.END_PHOTONITA_ORE.get());
                     output.accept(RegistryBlock.END_QUANTUMITE_ORE.get());
                     output.accept(RegistryBlock.END_SPINORITA_ORE.get());
-                    output.accept(RegistryBlock.END_SUPERCONDUTITA_ORE.get());
                 }
             ).build()
     );

@@ -60,27 +60,6 @@ public class QPBlocksLootTable extends BlockLootSubProvider {
         this.dropSelf(RegistryBlock.GRAVITONITA_COMPRESSOR.get());
         this.dropSelf(RegistryBlock.GRAVITONITA_BLOCK.get());
         this.add(
-                RegistryBlock.GRAVITONITA_ORE.get(),
-                block -> createQuantumOreDrops(
-                        RegistryBlock.GRAVITONITA_ORE.get(),
-                        RegistryItem.RAW_GRAVITONITA.get()
-                )
-        );
-        this.add(
-                RegistryBlock.DEEPSLATE_GRAVITONITA_ORE.get(),
-                block -> createQuantumDeepSlateOreDrops(
-                        RegistryBlock.DEEPSLATE_GRAVITONITA_ORE.get(),
-                        RegistryItem.RAW_GRAVITONITA.get()
-                )
-        );
-        this.add(
-                RegistryBlock.NETHER_GRAVITONITA_ORE.get(),
-                block -> createQuantumDeepSlateOreDrops(
-                        RegistryBlock.NETHER_GRAVITONITA_ORE.get(),
-                        RegistryItem.RAW_GRAVITONITA.get()
-                )
-        );
-        this.add(
                 RegistryBlock.END_GRAVITONITA_ORE.get(),
                 block -> createQuantumDeepSlateOreDrops(
                         RegistryBlock.END_GRAVITONITA_ORE.get(),
@@ -94,27 +73,6 @@ public class QPBlocksLootTable extends BlockLootSubProvider {
                 RegistryBlock.PHOTONITA_ORE.get(),
                 block -> createQuantumOreDrops(
                         RegistryBlock.PHOTONITA_ORE.get(),
-                        RegistryItem.RAW_PHOTONITA.get()
-                )
-        );
-        this.add(
-                RegistryBlock.DEEPSLATE_PHOTONITA_ORE.get(),
-                block -> createQuantumDeepSlateOreDrops(
-                        RegistryBlock.DEEPSLATE_PHOTONITA_ORE.get(),
-                        RegistryItem.RAW_PHOTONITA.get()
-                )
-        );
-        this.add(
-                RegistryBlock.NETHER_PHOTONITA_ORE.get(),
-                block -> createQuantumDeepSlateOreDrops(
-                        RegistryBlock.NETHER_PHOTONITA_ORE.get(),
-                        RegistryItem.RAW_PHOTONITA.get()
-                )
-        );
-        this.add(
-                RegistryBlock.END_PHOTONITA_ORE.get(),
-                block -> createQuantumDeepSlateOreDrops(
-                        RegistryBlock.END_PHOTONITA_ORE.get(),
                         RegistryItem.RAW_PHOTONITA.get()
                 )
         );
@@ -184,13 +142,6 @@ public class QPBlocksLootTable extends BlockLootSubProvider {
         this.dropSelf(RegistryBlock.SUPERCONDUTITA_FORGE.get());
         this.dropSelf(RegistryBlock.SUPERCONDUTITA_BLOCK.get());
         this.add(
-                RegistryBlock.SUPERCONDUTITA_ORE.get(),
-                block -> createQuantumOreDrops(
-                        RegistryBlock.SUPERCONDUTITA_ORE.get(),
-                        RegistryItem.RAW_SUPERCONDUTITA.get()
-                )
-        );
-        this.add(
                 RegistryBlock.DEEPSLATE_SUPERCONDUTITA_ORE.get(),
                 block -> createQuantumDeepSlateOreDrops(
                         RegistryBlock.DEEPSLATE_SUPERCONDUTITA_ORE.get(),
@@ -201,13 +152,6 @@ public class QPBlocksLootTable extends BlockLootSubProvider {
                 RegistryBlock.NETHER_SUPERCONDUTITA_ORE.get(),
                 block -> createQuantumDeepSlateOreDrops(
                         RegistryBlock.NETHER_SUPERCONDUTITA_ORE.get(),
-                        RegistryItem.RAW_SUPERCONDUTITA.get()
-                )
-        );
-        this.add(
-                RegistryBlock.END_SUPERCONDUTITA_ORE.get(),
-                block -> createQuantumDeepSlateOreDrops(
-                        RegistryBlock.END_SUPERCONDUTITA_ORE.get(),
                         RegistryItem.RAW_SUPERCONDUTITA.get()
                 )
         );

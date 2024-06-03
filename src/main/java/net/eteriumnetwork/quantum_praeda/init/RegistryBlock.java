@@ -50,12 +50,6 @@ public class RegistryBlock {
                 UniformInt.of(6, 9)
         )
     );
-    public static final RegistryObject<Block> GRAVITONITA_ORE = registerBlock(
-        "gravitonita_ore",
-        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE),
-                UniformInt.of(6, 9)
-        )
-    );
     public static final RegistryObject<Block> PHOTONITA_ORE = registerBlock(
       "photonita_ore",
         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE),
@@ -74,12 +68,6 @@ public class RegistryBlock {
                 UniformInt.of(6, 9)
         )
     );
-    public static final RegistryObject<Block> SUPERCONDUTITA_ORE = registerBlock(
-        "supercondutita_ore",
-        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE),
-                UniformInt.of(6, 9)
-        )
-    );
     // ------------------------------------DEEPSLATE------------------------------------------- \\
     public static final RegistryObject<Block> DEEPSLATE_QUANTUMITE_ORE = registerBlock(
             "deepslate_quantumite_ore",
@@ -89,18 +77,6 @@ public class RegistryBlock {
     );
     public static final RegistryObject<Block> DEEPSLATE_NEUTRINIO_ORE = registerBlock(
             "deepslate_neutrinio_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE),
-                    UniformInt.of(6, 9)
-            )
-    );
-    public static final RegistryObject<Block> DEEPSLATE_GRAVITONITA_ORE = registerBlock(
-            "deepslate_gravitonita_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE),
-                    UniformInt.of(6, 9)
-            )
-    );
-    public static final RegistryObject<Block> DEEPSLATE_PHOTONITA_ORE = registerBlock(
-            "deepslate_photonita_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE),
                     UniformInt.of(6, 9)
             )
@@ -154,12 +130,6 @@ public class RegistryBlock {
                     UniformInt.of(6, 9)
             )
     );
-    public static final RegistryObject<Block> END_SUPERCONDUTITA_ORE = registerBlock(
-        "end_supercondutita_ore",
-        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE),
-                UniformInt.of(6, 9)
-        )
-    );
     // --------------------------------------NETHER--------------------------------------------- \\
     public static final RegistryObject<Block> NETHER_QUANTUMITE_ORE = registerBlock(
             "nether_quantumite_ore",
@@ -169,12 +139,6 @@ public class RegistryBlock {
     );
     public static final RegistryObject<Block> NETHER_NEUTRINIO_ORE = registerBlock(
             "nether_neutrinio_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE),
-                    UniformInt.of(6, 9)
-            )
-    );
-    public static final RegistryObject<Block> NETHER_GRAVITONITA_ORE = registerBlock(
-            "nether_gravitonita_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE),
                     UniformInt.of(6, 9)
             )
@@ -283,30 +247,27 @@ public class RegistryBlock {
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(QUANTUMITE_ORE);
             event.accept(NEUTRINIO_ORE);
-            event.accept(GRAVITONITA_ORE);
             event.accept(PHOTONITA_ORE);
             event.accept(SPINORITA_ORE);
             event.accept(ENTANGLION_ORE);
-            event.accept(SUPERCONDUTITA_ORE);
+
             event.accept(DEEPSLATE_QUANTUMITE_ORE);
             event.accept(DEEPSLATE_NEUTRINIO_ORE);
-            event.accept(DEEPSLATE_GRAVITONITA_ORE);
-            event.accept(DEEPSLATE_PHOTONITA_ORE);
             event.accept(DEEPSLATE_SPINORITA_ORE);
             event.accept(DEEPSLATE_ENTANGLION_ORE);
             event.accept(DEEPSLATE_SUPERCONDUTITA_ORE);
+
             event.accept(NETHER_QUANTUMITE_ORE);
             event.accept(NETHER_NEUTRINIO_ORE);
-            event.accept(NETHER_GRAVITONITA_ORE);
             event.accept(NETHER_SPINORITA_ORE);
             event.accept(NETHER_ENTANGLION_ORE);
             event.accept(NETHER_SUPERCONDUTITA_ORE);
+
             event.accept(END_QUANTUMITE_ORE);
             event.accept(END_NEUTRINIO_ORE);
             event.accept(END_GRAVITONITA_ORE);
             event.accept(END_SPINORITA_ORE);
             event.accept(END_ENTANGLION_ORE);
-            event.accept(END_SUPERCONDUTITA_ORE);
 
             event.accept(QUANTUMITE_BLOCK);
             event.accept(NEUTRINIO_BLOCK);

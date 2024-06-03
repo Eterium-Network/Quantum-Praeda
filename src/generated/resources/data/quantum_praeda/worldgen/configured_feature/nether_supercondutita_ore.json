@@ -9,7 +9,7 @@
           "Name": "quantum_praeda:nether_supercondutita_ore"
         },
         "target": {
-          "block": "minecraft:netherrack",
+          "block": "minecraft:magma_block",
           "predicate_type": "minecraft:block_match"
         }
       }

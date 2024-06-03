@@ -2,8 +2,8 @@
   "feature": "quantum_praeda:nether_neutrinio_ore",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": 12
+      "type": "minecraft:rarity_filter",
+      "chance": 2
     },
     {
       "type": "minecraft:in_square"

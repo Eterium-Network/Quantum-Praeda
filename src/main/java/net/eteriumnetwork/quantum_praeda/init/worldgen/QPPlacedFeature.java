@@ -32,10 +32,6 @@ public class QPPlacedFeature {
     public static final ResourceKey<PlacedFeature> END_NEUTRINIO_ORE_PLACED_KEY =
             registerKey(RegistryBlock.END_NEUTRINIO_ORE.getId().getPath()+"_placed");
 
-    public static final ResourceKey<PlacedFeature> OVERWORLD_GRAVITONITA_ORE_PLACED_KEY =
-            registerKey(RegistryBlock.GRAVITONITA_ORE.getId().getPath()+"_placed");
-    public static final ResourceKey<PlacedFeature> NETHER_GRAVITONITA_ORE_PLACED_KEY =
-            registerKey(RegistryBlock.NETHER_GRAVITONITA_ORE.getId().getPath()+"_placed");
     public static final ResourceKey<PlacedFeature> END_GRAVITONITA_ORE_PLACED_KEY =
             registerKey(RegistryBlock.END_GRAVITONITA_ORE.getId().getPath()+"_placed");
 
@@ -49,12 +45,10 @@ public class QPPlacedFeature {
     public static final ResourceKey<PlacedFeature> END_ENTANGLION_ORE_PLACED_KEY =
             registerKey(RegistryBlock.END_ENTANGLION_ORE.getId().getPath()+"_placed");
 
-    public static final ResourceKey<PlacedFeature> OVERWORLD_SUPERCONDUTITA_ORE_PLACED_KEY =
-            registerKey(RegistryBlock.SUPERCONDUTITA_ORE.getId().getPath()+"_placed");
+    public static final ResourceKey<PlacedFeature> DEEPSLATE_SUPERCONDUTITA_ORE_PLACED_KEY =
+            registerKey(RegistryBlock.DEEPSLATE_SUPERCONDUTITA_ORE.getId().getPath());
     public static final ResourceKey<PlacedFeature> NETHER_SUPERCONDUTITA_ORE_PLACED_KEY =
             registerKey(RegistryBlock.NETHER_SUPERCONDUTITA_ORE.getId().getPath()+"_placed");
-    public static final ResourceKey<PlacedFeature> END_SUPERCONDUTITA_ORE_PLACED_KEY =
-            registerKey(RegistryBlock.END_SUPERCONDUTITA_ORE.getId().getPath()+"_placed");
 
     public static final ResourceKey<PlacedFeature> OVERWORLD_SPINORITA_ORE_PLACED_KEY =
             registerKey(RegistryBlock.SPINORITA_ORE.getId().getPath()+"_placed");
@@ -139,30 +133,6 @@ public class QPPlacedFeature {
         );
         register(
                 context,
-                OVERWORLD_GRAVITONITA_ORE_PLACED_KEY,
-                configuredFeatureHolder.getOrThrow(QPConfiguredFeature.OVERWORLD_GRAVITONITA_ORE_KEY),
-                QPOrePlacement.commonOrePlacement(
-                        12,
-                        HeightRangePlacement.uniform(
-                                VerticalAnchor.absolute(-64),
-                                VerticalAnchor.absolute(80)
-                        )
-                )
-        );
-        register(
-                context,
-                NETHER_GRAVITONITA_ORE_PLACED_KEY,
-                configuredFeatureHolder.getOrThrow(QPConfiguredFeature.NETHER_GRAVITONITA_ORE_KEY),
-                QPOrePlacement.commonOrePlacement(
-                        12,
-                        HeightRangePlacement.uniform(
-                                VerticalAnchor.absolute(-64),
-                                VerticalAnchor.absolute(80)
-                        )
-                )
-        );
-        register(
-                context,
                 END_GRAVITONITA_ORE_PLACED_KEY,
                 configuredFeatureHolder.getOrThrow(QPConfiguredFeature.END_GRAVITONITA_ORE_KEY),
                 QPOrePlacement.commonOrePlacement(
@@ -223,8 +193,8 @@ public class QPPlacedFeature {
         );
         register(
                 context,
-                OVERWORLD_SUPERCONDUTITA_ORE_PLACED_KEY,
-                configuredFeatureHolder.getOrThrow(QPConfiguredFeature.OVERWORLD_SUPERCONDUTITA_ORE_KEY),
+                DEEPSLATE_SUPERCONDUTITA_ORE_PLACED_KEY,
+                configuredFeatureHolder.getOrThrow(QPConfiguredFeature.DEEPSLATE_SUPERCONDUTITA_ORE_KEY),
                 QPOrePlacement.rareOrePlacement(
                         8,
                         HeightRangePlacement.uniform(
@@ -237,18 +207,6 @@ public class QPPlacedFeature {
                 context,
                 NETHER_SUPERCONDUTITA_ORE_PLACED_KEY,
                 configuredFeatureHolder.getOrThrow(QPConfiguredFeature.NETHER_SUPERCONDUTITA_ORE_KEY),
-                QPOrePlacement.rareOrePlacement(
-                        8,
-                        HeightRangePlacement.uniform(
-                                VerticalAnchor.absolute(-64),
-                                VerticalAnchor.absolute(80)
-                        )
-                )
-        );
-        register(
-                context,
-                END_SUPERCONDUTITA_ORE_PLACED_KEY,
-                configuredFeatureHolder.getOrThrow(QPConfiguredFeature.END_SUPERCONDUTITA_ORE_KEY),
                 QPOrePlacement.rareOrePlacement(
                         8,
                         HeightRangePlacement.uniform(

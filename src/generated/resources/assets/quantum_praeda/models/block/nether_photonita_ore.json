@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "quantum_praeda:block/nether_photonita_ore"
-  }
-}

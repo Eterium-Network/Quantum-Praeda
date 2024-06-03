@@ -822,7 +822,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# Client execution files (it is the basis of .minecraft)
+## Forge Generated Files and Folder
+# Client execution files (it is the base of .minecraft)
 /run/**
 /run-data/**
 
@@ -830,4 +831,6 @@ Temporary Items
 **/logs/**
 **/log/**
 
+# Generated Resouces Folder
 !**/resources/**
+**/resources/.cache/**

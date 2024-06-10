@@ -1,9 +1,9 @@
 package net.eteriumnetwork.quantum_praeda;
 
 import com.mojang.logging.LogUtils;
-import net.eteriumnetwork.quantum_praeda.init.QPCreativeModeTabs;
-import net.eteriumnetwork.quantum_praeda.init.RegistryItem;
-import net.eteriumnetwork.quantum_praeda.init.RegistryBlock;
+import net.eteriumnetwork.quantum_praeda.core.init.QPCreativeModeTabs;
+import net.eteriumnetwork.quantum_praeda.core.init.RegistryItem;
+import net.eteriumnetwork.quantum_praeda.core.init.RegistryBlock;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;

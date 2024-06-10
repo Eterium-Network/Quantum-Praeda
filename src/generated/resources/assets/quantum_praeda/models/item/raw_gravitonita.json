@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "quantum_praeda:item/raw_gravitonita"
-  }
-}

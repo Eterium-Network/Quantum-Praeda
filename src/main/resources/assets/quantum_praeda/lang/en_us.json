@@ -46,12 +46,12 @@
   "block.quantum_praeda.end_spinorita_ore": "Spinorita End Ore",
   "block.quantum_praeda.end_supercondutita_ore": "Supercondutita End Ore",
 
-
-  "item.quantum_praeda.raw_entanglion": "Raw Entanglion Ore",
-  "item.quantum_praeda.raw_gravitonita": "Raw Gravitonita Ore",
-  "item.quantum_praeda.raw_neutrinio": "Raw Neutrínio Ore",
-  "item.quantum_praeda.raw_photonita": "Raw Photonita Ore",
-  "item.quantum_praeda.raw_quantumite": "Raw Quantumite Ore",
-  "item.quantum_praeda.raw_spinorita": "Raw Spinorita Ore",
-  "item.quantum_praeda.raw_supercondutita": "Raw Supercondutita Ore"
+  "item.quantum_praeda.entanglion_crystal": "Raw Entanglion Ore",
+  "item.quantum_praeda.gravitonita_raw": "Raw Gravitonita Ore",
+  "item.quantum_praeda.neutrinio_raw": "Raw Neutrínio Ore",
+  "item.quantum_praeda.photonita_raw": "Raw Photonita Ore",
+  "item.quantum_praeda.quantumite_raw": "Raw Quantumite Ore",
+  "item.quantum_praeda.spinorita_raw": "Raw Spinorita Ore",
+  "item.quantum_praeda.supercondutita_raw": "Raw Supercondutita Ore",
+  "item.quantum_praeda.spinorita_ingot": "Spinorita Ingot"
 }

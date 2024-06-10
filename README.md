@@ -1,19 +1,16 @@
 <div align="center">
   <h1>Quantum Praeda™</h1>
-</div>
-
 
 [![Project Banner](https://placehold.co/600x400/png?text=Project+Banner)](https://github.com/eteriumnetwork/Quantum-Praeda/)
 
-
-> Quantum Praeda é um mod de tecnologia para Minecraft que utiliza como base a '**Engenharia Quantica**' em seu ecosistema.
+> Quantum Praeda transforma o universo de Minecraft com um inovador ecossistema de física quântica. Este mod mescla elementos fictícios com conceitos reais da mecânica quântica, proporcionando aos jogadores uma aventura extraordinariamente imersiva e educativa. Explore novas dimensões de jogabilidade enquanto interage com fenômenos quânticos que desafiam a realidade, tudo dentro do amado mundo de Minecraft.
 
 [![LICENSE](https://img.shields.io/static/v1?label=CC&message=BY-SA%204.0&color=EF9421&style=for-the-badge&logo=creative%20commons)](LICENSE.md)
 [![FORGE](https://img.shields.io/static/v1?label=Forge%20MDK&message=1.20.1-47.2+&color=000&style=for-the-badge&logo=conda-forge)](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html)
 [![RELEASE](https://img.shields.io/static/v1?label=Version&message=v1.0.0-SNAPSHOT&color=0230CA&style=for-the-badge)]()
 [![ISSUE's FEATURES](https://img.shields.io/github/issues-search/Eterium-Network/Quantum-Praeda?label=Features&query=label%3Aenhancement&color=181717&style=for-the-badge&logo=github)](https://github.com/Eterium-Network/Quantum-Praeda/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
 [![ISSUE's BUG's](https://img.shields.io/github/issues-search/Eterium-Network/Quantum-Praeda?label=Bugs&query=label%3Abug&color=181717&style=for-the-badge&logo=github)](https://github.com/Eterium-Network/Quantum-Praeda/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
-
+</div>
 
 ### Ajustes e melhorias
 

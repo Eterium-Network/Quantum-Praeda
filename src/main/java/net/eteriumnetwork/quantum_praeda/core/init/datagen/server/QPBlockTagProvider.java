@@ -1,6 +1,7 @@
 package net.eteriumnetwork.quantum_praeda.core.init.datagen.server;
 
 import net.eteriumnetwork.quantum_praeda.core.init.RegistryBlock;
+import net.eteriumnetwork.quantum_praeda.util.logger.QPLogger;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -19,7 +20,7 @@ public class QPBlockTagProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.@NotNull Provider provider) {
-
+        QPLogger.info("Starting Register of Tags: MINEABLE WITH PICKAXE");
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
             .add(RegistryBlock.NETHER_QUANTUMITE_ORE.get())
             .add(RegistryBlock.NETHER_ENTANGLION_ORE.get())

@@ -2,6 +2,7 @@ package net.eteriumnetwork.quantum_praeda.core.init;
 
 import net.eteriumnetwork.quantum_praeda.QuantumPraeda;
 
+import net.eteriumnetwork.quantum_praeda.util.logger.QPLogger;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -34,14 +35,8 @@ public class RegistryBlock {
         return toReturn;
     }
 
-    /**
-     * @param name String
-     * @param block {@link RegistryObject<T>}
-     * @param <T> {@link Block}
-     * @return {@link RegistryObject<Item>}
-     */
-    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
-        return RegistryItem.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+    private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
+        RegistryItem.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
     public static final RegistryObject<Block> QUANTUMITE_ORE = registerBlock(
@@ -224,6 +219,7 @@ public class RegistryBlock {
     );
 
     public static void init(IEventBus modEventBus) {
+        QPLogger.info("Quantum Blocks Registry Initialization...");
         BLOCKS.register(modEventBus);
         BLOCK_ENTITIES.register(modEventBus);
     }

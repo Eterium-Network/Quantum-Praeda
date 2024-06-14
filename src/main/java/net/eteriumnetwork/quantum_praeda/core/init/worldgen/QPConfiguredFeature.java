@@ -2,6 +2,7 @@ package net.eteriumnetwork.quantum_praeda.core.init.worldgen;
 
 import net.eteriumnetwork.quantum_praeda.QuantumPraeda;
 import net.eteriumnetwork.quantum_praeda.core.init.RegistryBlock;
+import net.eteriumnetwork.quantum_praeda.util.logger.QPLogger;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.resources.ResourceKey;
@@ -29,6 +30,8 @@ public class QPConfiguredFeature {
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_NEUTRINIO_ORE_KEY =
             registerKey(RegistryBlock.END_NEUTRINIO_ORE.getId().getPath());
+    public static final ResourceKey<ConfiguredFeature<?, ?>> DEEPSLATE_NEUTRINIO_ORE_KEY =
+        registerKey(RegistryBlock.DEEPSLATE_NEUTRINIO_ORE.getId().getPath());
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_GRAVITONITA_ORE_KEY =
             registerKey(RegistryBlock.END_GRAVITONITA_ORE.getId().getPath());
@@ -40,6 +43,8 @@ public class QPConfiguredFeature {
             registerKey(RegistryBlock.NETHER_ENTANGLION_ORE.getId().getPath());
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_ENTANGLION_ORE_KEY =
             registerKey(RegistryBlock.END_ENTANGLION_ORE.getId().getPath());
+    public static final ResourceKey<ConfiguredFeature<?, ?>> DEEPSLATE_ENTANGLION_ORE_KEY =
+        registerKey(RegistryBlock.DEEPSLATE_ENTANGLION_ORE.getId().getPath());
 
     public static final ResourceKey<ConfiguredFeature<?,?>> DEEPSLATE_SUPERCONDUTITA_ORE_KEY =
             registerKey(RegistryBlock.DEEPSLATE_SUPERCONDUTITA_ORE.getId().getPath());
@@ -60,7 +65,6 @@ public class QPConfiguredFeature {
         RuleTest magmaBlockReplaceable = new BlockMatchTest(Blocks.MAGMA_BLOCK);
         RuleTest endReplaceable = new BlockMatchTest(Blocks.END_STONE);
 
-        // --------------------------------------OVERWORLD--------------------------------------------- \\
         List<OreConfiguration.TargetBlockState> overworld_quantumite_ore = List.of(
                 OreConfiguration.target(
                         stoneReplaceable,
@@ -101,7 +105,8 @@ public class QPConfiguredFeature {
                         RegistryBlock.DEEPSLATE_SUPERCONDUTITA_ORE.get().defaultBlockState()
                 )
         );
-
+        // --------------------------------------OVERWORLD--------------------------------------------- \\
+        QPLogger.info("Stating ConfigFeature Register: OVERWORLD QUANTUM ORES");
         register(
                 context,
                 OVERWORLD_QUANTUMITE_ORE_KEY,
@@ -112,12 +117,31 @@ public class QPConfiguredFeature {
                 OVERWORLD_PHOTONITA_ORE_KEY,
                 Feature.ORE, new OreConfiguration(overworld_photonita_ore, 9)
         );
+        QPLogger.info("Stating ConfigFeature Register: DEEPSLATE QUANTUM ORES");
         register(
                 context,
                 DEEPSLATE_SUPERCONDUTITA_ORE_KEY,
                 Feature.ORE, new OreConfiguration(deepslate_supercondutita_ore, 9)
         );
+        register(
+            context,
+            DEEPSLATE_SPINORITA_ORE_KEY,
+            Feature.ORE, new OreConfiguration(overworld_spinorita_ore, 9)
+        );
+        register(
+            context,
+            DEEPSLATE_ENTANGLION_ORE_KEY,
+            Feature.ORE, new OreConfiguration(overworld_entanglion_ore, 9)
+        );
+        register(
+            context,
+            DEEPSLATE_NEUTRINIO_ORE_KEY,
+            Feature.ORE, new OreConfiguration(overworld_neutrinio_ore, 9)
+        );
+
+
         // --------------------------------------NETHER--------------------------------------------- \\
+        QPLogger.info("Stating ConfigFeature Register: NETHER QUANTUM ORES");
         register(
                 context,
                 NETHER_QUANTUMITE_ORE_KEY,
@@ -159,6 +183,7 @@ public class QPConfiguredFeature {
                 )
         );
         // --------------------------------------END--------------------------------------------- \\
+        QPLogger.info("Stating ConfigFeature Register: END QUANTUM ORES");
         register(
                 context,
                 END_QUANTUMITE_ORE_KEY,
@@ -213,13 +238,20 @@ public class QPConfiguredFeature {
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
+        QPLogger.debug("RegisterKey: %s", name);
         return  ResourceKey.create(Registries.CONFIGURED_FEATURE, new ResourceLocation(QuantumPraeda.MODID, name));
     }
 
     private static <FC extends FeatureConfiguration, F extends Feature<FC>> void register(
-            BootstapContext<ConfiguredFeature<?, ?>> context, ResourceKey<ConfiguredFeature<?, ?>> key,
-            F feature, FC configuration
+            BootstapContext<ConfiguredFeature<?, ?>> context,
+            ResourceKey<ConfiguredFeature<?, ?>> key,
+            F feature,
+            FC configuration
     ) {
+        QPLogger.debug(
+            "\nConfiguredFeature: {\n\tnamespace: %s,\t\nlocation: %s,\t\nlanguageRef: %s\n}",
+            key.location().getNamespace(), key.location(), key.location().toLanguageKey()
+        );
         context.register(key, new ConfiguredFeature<>(feature, configuration));
     }
 

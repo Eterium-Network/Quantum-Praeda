@@ -47,11 +47,12 @@
   "block.quantum_praeda.end_spinorita_ore": "Minério de Spinorita",
   "block.quantum_praeda.end_supercondutita_ore": "Minério de Supercondutita",
 
-  "item.quantum_praeda.raw_entanglion": "Minério de Entanglion Bruto",
-  "item.quantum_praeda.raw_gravitonita": "Minério de Gravitonita Bruto",
-  "item.quantum_praeda.raw_neutrinio": "Minério de Neutrínio Bruto",
-  "item.quantum_praeda.raw_photonita": "Minério de Photonita Bruto",
-  "item.quantum_praeda.raw_quantumite": "Minério de Quantumite Bruto",
-  "item.quantum_praeda.raw_spinorita": "Minério de Spinorita Bruto",
-  "item.quantum_praeda.raw_supercondutita": "Minério de Supercondutita Bruto"
+  "item.quantum_praeda.entanglion_crystal": "Minério de Entanglion Bruto",
+  "item.quantum_praeda.gravitonita_raw": "Minério de Gravitonita Bruto",
+  "item.quantum_praeda.neutrinio_raw": "Minério de Neutrínio Bruto",
+  "item.quantum_praeda.photonita_raw": "Minério de Photonita Bruto",
+  "item.quantum_praeda.quantumite_raw": "Minério de Quantumite Bruto",
+  "item.quantum_praeda.spinorita_raw": "Minério de Spinorita Bruto",
+  "item.quantum_praeda.supercondutita_raw": "Minério de Supercondutita Bruto",
+  "item.quantum_praeda.spinorita_ingot": "Barra de Spinorita"
 }

@@ -1,11 +1,12 @@
 <div align="center">
   <h1>Quantum Praeda™</h1>
+  
+  ### 🔴IMPORTANT: PROJETO DESCONTINUADO!🔴
+  [![Project Banner](https://placehold.co/600x400/png?text=Project+Banner)](https://github.com/eteriumnetwork/Quantum-Praeda/)
 
-[![Project Banner](https://placehold.co/600x400/png?text=Project+Banner)](https://github.com/eteriumnetwork/Quantum-Praeda/)
+  <div align="justify">
 
-<div align="justify">
-
-> Quantum Praeda é um mod de tecnologia para Minecraft que utiliza como base a '**Engenharia Quantica**' da ficção cientifica em seu ecosistema.
+  > Quantum Praeda é um mod de tecnologia para Minecraft que utiliza como base a '**Engenharia Quantica**' da ficção cientifica em seu ecosistema.
 
 </div>
 
